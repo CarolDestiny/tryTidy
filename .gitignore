@@ -34,3 +34,4 @@ user/
 
 data/voice/
 # 语音合成的缓存文件
+/.vs
