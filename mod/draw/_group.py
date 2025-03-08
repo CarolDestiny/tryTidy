@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# flake8: noqa
 import requests
 import json
 import random
@@ -8,7 +9,7 @@ sys.path.append("...")
 import _set as set
 
 
-def draw_group(prompt, to):
+def group(prompt, to):
     try:
         urldraw = set.draw_url
         headers = {
