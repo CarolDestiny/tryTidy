@@ -3,7 +3,7 @@ import requests
 import json
 
 
-def imageUrl(resp_dict):
+def image_url(resp_dict):
     msg_type = resp_dict['msg_type']  # 回复类型（群聊/私聊）
     number = resp_dict['number']  # 回复账号（群号/好友号）
     msg = resp_dict['msg']  # 要回复的消息
